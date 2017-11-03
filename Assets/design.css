@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background-image: url("Background.jpg");
+}
+
+div {
+	color: white;
+	padding: 15px;
+	margin-right: 200px;
+	margin-left: 100px;
+	border-radius:10px;
+	margin-top: 120px;
+}
+
+.button {
+	background-color: #A7F0FC;	
+	border-radius: 2px;
+	height: 30px;
+}
+h1 {
+	text-shadow: 2px 2px 0px #000000;
+
+}
