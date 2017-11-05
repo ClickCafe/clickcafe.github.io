@@ -1,32 +1,51 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Registration</title>
-	<link rel="stylesheet" type="text/css" href="Assets/design.css">
-	<script type="text/javascript">
-		function SubmitToPage(){
-			window.location="login.html";
-		}
-	</script>
-</head>
-	
-<body>
-	<center>
-		
-		<div class = "fields">
-		<h1>Registration</h1>
-			<form >
-				<label>First Name </label><input type="text" size="50" name="firstname"><br><br>
-				<label>Last Name &nbsp;</label><input type="text" size="50" name="lastname"><br><br>
-				<label>Birthdate &nbsp;&nbsp;&nbsp;&nbsp;</label><input type="date" name="birthdate">
-				<label>&nbsp;&nbsp;Gender </label><input type ="radio" name = "gender" value = "Male">Male
-				<input type ="radio" name = "gender" value = "Female">Female &nbsp;<br><br>
-				<label>Email  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label><input type="text" size="50" name="email"><br><br>
-				<label>Password  &nbsp; &nbsp;</label><input type="password" size="50" name ="password"><br><br>
-				<input class ="button" type="button" value="Submit Me!" onClick="SubmitToPage();"> 
-			</form>
-		</div>
-	</center>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log In to Canvas</title>
+        <link rel="stylesheet" type="text/css" href="Assets/bootstrap.css">
+        <script src="validation.js"></script>
+    </head>
+    <body class="main-header">
+            <div class="form">
+                <img src="Assets/logo.png" alt="FEU Logo" class="logo">
+                <div class="browse">
+                    <a href="https://onefeu.instructure.com/search/all_courses">Browse Courses</a>
+                </div>
+                <div class="formbox">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input class="form-control"type="email" required id="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input class="form-control"type="password" required id="password">
+                        </div>
+                        <div class ="checkbox">
+                            <label><input type="checkbox"> Stay signed in</label>                                                      
+                        </div>
+                        <div class="f-password">
+                            <a href="">Forgot Password?</a>
+                        </div>
+                        <div class="button-holder">
+                            <input type="submit" class="btn btn-primary" value="Log In" onclick="validation()">
+                        </div>
+                        <div class="nav-list">
+                            <ul class="links-menu">
+                                <li><a href="https://community.canvaslms.com/community/help">Help</a></li>
+                                <li><a href="https://onefeu.instructure.com/privacy_policy">Privacy Policy</a></li>
+                                <li><a href="https://www.canvaslms.com/policies/intl-terms-of-use-canvas">Terms of service</a></li>
+                                <li><a href="https://www.facebook.com/Instructure/">Facebook</a></li>
+                                <li><a href="https://twitter.com/instructure">Twitter</a></li>
+                            </ul>
+                        </div>
+                        <div class="instructure">
+                            <p>INSTRUCTURE</p> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </body>
 </html>
