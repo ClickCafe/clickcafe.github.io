@@ -169,6 +169,7 @@ html, body {
 }
 
 .ftr {
+  clear:both;
   background-color: #303030;
   margin:0;
   padding:0;
@@ -5717,6 +5718,72 @@ button.close {
   content: "";
 }
 
+.srvcs {
+  text-align: justify;
+  margin-top:20px;
+}
+
+.d-print {
+  text-align: justify;
+  width:400px;
+  margin-top: 80px;
+}
+
+.paperStock{
+  width:400px;
+  float:right;
+  margin-top: -450px;
+}
+
+.bind{
+  text-align: justify;
+  width:400px;
+  margin-top: 40px;
+}
+
+.bind-col{
+  margin-top:-1150px;
+  margin-left:850px;
+}
+
+.bind-img {
+  width:400px;
+  height:200px;
+  display:block;
+  margin-bottom:30px;
+}
+
+.bless {
+  width:400px;
+}
+.bless-img {
+  width: 400px;
+  margin-top:-2650px;
+  margin-left: 850px;
+}
+.brands {
+  clear:both;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+.binding {
+  margin-top:50px;
+}
+
+.brand-item {
+  width: 300px;
+  display:inline;
+  margin:auto;
+  padding:auto;
+  float:left;
+}
+.brnd-logo {
+  width:200px;
+}
+.ink {
+  text-align:justify;
+}
 .carousel-indicators .active {
   background-color: #fff;
 }
@@ -5733,7 +5800,7 @@ button.close {
   text-align: center;
 }
 
-.carousel-caption p,h3 {
+.carousel-caption p h3 {
   text-shadow: 2px 2px 2px #000000;
 }
 
