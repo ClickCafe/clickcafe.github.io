@@ -170,6 +170,8 @@ html, body {
 
 .ftr {
   background-color: #303030;
+  margin:0;
+  padding:0;
 }
 
 html {
@@ -5532,7 +5534,7 @@ button.close {
 .carousel {
   position: relative;
   width:100%;
-  margin:auto;
+  margin:0;
 }
 
 .carousel-inner {
@@ -5729,6 +5731,10 @@ button.close {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
+}
+
+.carousel-caption p,h3 {
+  text-shadow: 2px 2px 2px #000000;
 }
 
 .align-baseline {
