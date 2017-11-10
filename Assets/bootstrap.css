@@ -5838,6 +5838,11 @@ button.close {
   text-shadow: 2px 2px 0px #000000;
 }
 
+.menu-img {
+  display:inline-block;
+  width:300px;
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
