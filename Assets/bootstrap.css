@@ -5813,6 +5813,7 @@ button.close {
 }
 .brnd-logo {
   width:200px;
+}
 .ink {
   text-align:justify;
 }
@@ -5830,11 +5831,11 @@ button.close {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 2px 2px 0px #000000;
 }
 
 .carousel-caption p h3 {
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 2px 2px 0px #000000;
 }
 
 .align-baseline {
